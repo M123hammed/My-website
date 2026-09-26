@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+}
+
+p {
+    color: #f1f1f1;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid white;
+    transition: transform 0.3s;
+    margin: 20px auto;
+    display: block;
+}
+
+button {
+    background-color: white;
+    color: darkblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:havor {
+    background-color: lightblue;
+    color :black
+}
+
+img:havor {
+    transform: scale(1.05);
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:havor {
+    color: black;
+    text-decoration: underline;
+}
+
+nav {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 35px;
+    }
+    
+    nav a {
+        margin: 0 7px;
+    }
+}
+
+.project-card {
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.project-card h3 {
+    color: skyblue;
+    font-size: 24px;
+}
+
+.project-card a {
+    color: white;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
