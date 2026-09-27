@@ -4,9 +4,6 @@ paragraph. textContent = "I am learning web development";
 
 const button = document.querySelector("button");
 
-button.addEventListener("click", function() {
-    alert("Thank you for contacting me");
-});
 
 const heading = document.querySelector("h1");
 heading.textContent = "Welcome to my website";
